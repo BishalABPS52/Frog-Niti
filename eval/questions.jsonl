@@ -1,0 +1,4 @@
+{"id": "q1", "question": "PLACEHOLDER: ask in clean English", "type": "clean", "expected_procedure": "example_procedure"}
+{"id": "q2", "question": "PLACEHOLDER: ask in Nepali", "type": "nepali", "expected_procedure": "example_procedure"}
+{"id": "q3", "question": "PLACEHOLDER: ask in Romanized Nepali with typos", "type": "messy", "expected_procedure": "example_procedure"}
+{"id": "q4", "question": "PLACEHOLDER: a follow-up question", "type": "followup", "expected_procedure": "example_procedure"}

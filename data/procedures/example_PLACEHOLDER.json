@@ -1,0 +1,25 @@
+{
+  "id": "example_procedure",
+  "title_en": "EXAMPLE ONLY - Sample recommendation letter",
+  "title_ne": "उदाहरण मात्र",
+  "aliases": ["sample", "example", "sifaris", "recommendation", "letter"],
+  "municipality": "EXAMPLE_MUNICIPALITY",
+  "office": "EXAMPLE Ward Office",
+  "mode": "both",
+  "practical_tip": "PLACEHOLDER tip. Replace with a real, confirmed tip.",
+  "tip_source_type": "community_reported",
+  "steps": [
+    {"order": 1, "action": "PLACEHOLDER step one", "where": "EXAMPLE Ward Office"},
+    {"order": 2, "action": "PLACEHOLDER step two"}
+  ],
+  "documents": [
+    {"name": "PLACEHOLDER required document", "required": true, "source_type": "official"},
+    {"name": "PLACEHOLDER optional document", "required": false, "reason": "PLACEHOLDER reason", "source_type": "community_reported"}
+  ],
+  "fee": null,
+  "time_needed": null,
+  "sources": [
+    {"url": "https://example.com", "title": "Placeholder source", "last_verified": "2026-10-01"}
+  ],
+  "reviewed_by_human": false
+}
