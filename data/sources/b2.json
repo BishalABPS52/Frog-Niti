@@ -1,0 +1,450 @@
+[
+  {
+    "id": "relationship_certification",
+    "title_en": "Relationship Certification",
+    "title_ne": "नाता प्रमाणित",
+    "aliases": [
+      "नाता प्रमाणित",
+      "relationship certificate",
+      "nata pramanit"
+    ],
+    "scope": "municipality_specific",
+    "applies_to": "Individuals needing official proof of relationship with a living or deceased family member.",
+    "municipality": "national",
+    "office": "सम्बन्धित वडा कार्यालय (Local Ward Office)",
+    "mode": "in_person",
+    "online_note": null,
+    "practical_tip": null,
+    "tip_source_type": null,
+    "steps": [
+      {
+        "order": 1,
+        "action": "Submit the filled application form with required documents.",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Ward office verification (may include field visit / सर्जमिन if deemed necessary).",
+        "where": "Ward Office / Field",
+        "fee": null
+      },
+      {
+        "order": 3,
+        "action": "Issuance of the relationship certification letter.",
+        "where": "Ward Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Application form",
+        "required": true,
+        "reason": "Standard procedural requirement",
+        "source_type": "official"
+      },
+      {
+        "name": "Citizenship certificate of the applicant",
+        "required": true,
+        "reason": "Primary proof of identity",
+        "source_type": "official"
+      },
+      {
+        "name": "Citizenship certificate of the person to whom relationship is being proved",
+        "required": true,
+        "reason": "To establish the relationship",
+        "source_type": "official"
+      },
+      {
+        "name": "Recent passport-size photos (2 copies)",
+        "required": true,
+        "reason": "For ward records",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Proving relationship with a deceased person",
+        "extra_or_different_documents": [
+          "Death registration certificate of the deceased person"
+        ]
+      }
+    ],
+    "fee": "Rs. 300 - 400 (Varies by municipality financial procedure)",
+    "time_needed": "Same day if documents are complete; up to 3 days if field verification (सर्जमिन) is required.",
+    "legal_basis": "स्थानीय सरकार सञ्चालन ऐन, २०७४",
+    "sources": [
+      {
+        "url": "https://banepamun.gov.np/ne/content/%E0%A4%A8%E0%A4%BE%E0%A4%A4%E0%A4%BE-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%BF%E0%A4%A4",
+        "title": "नाता प्रमाणित",
+        "source_kind": "official",
+        "source_page_date": "2018-01-11",
+        "date_read": "2026-10-28"
+      },
+      {
+        "url": "https://pokharamun.gov.np/content/%E0%A4%AE%E0%A5%83%E0%A4%A4%E0%A4%95-%E0%A4%B8%E0%A4%82%E0%A4%97%E0%A4%95%E0%A5%8B-%E0%A4%A8%E0%A4%BE%E0%A4%A4%E0%A4%BE-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%BF%E0%A4%A4",
+        "title": "मृतक संगको नाता प्रमाणित",
+        "source_kind": "official",
+        "source_page_date": "2018-12-28",
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "medium",
+    "flags": [
+      "Fee and exact processing time vary significantly between different municipalities and wards."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "residence_recommendation",
+    "title_en": "Permanent Residence Recommendation",
+    "title_ne": "स्थायी बसोबास सिफारिस",
+    "aliases": [
+      "स्थायी बसोबास सिफारिस",
+      "permanent residence recommendation",
+      "sthayi basobas sifarish"
+    ],
+    "scope": "municipality_specific",
+    "applies_to": "Individuals needing official proof of their permanent residence in a specific ward.",
+    "municipality": "national",
+    "office": "सम्बन्धित वडा कार्यालय (Local Ward Office)",
+    "mode": "in_person",
+    "online_note": null,
+    "practical_tip": null,
+    "tip_source_type": null,
+    "steps": [
+      {
+        "order": 1,
+        "action": "Submit the filled application form with required documents.",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Verification of address and property ownership/tenancy.",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 3,
+        "action": "Issuance of the permanent residence recommendation letter.",
+        "where": "Ward Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Application form",
+        "required": true,
+        "reason": "Standard procedural requirement",
+        "source_type": "official"
+      },
+      {
+        "name": "Citizenship certificate copy",
+        "required": true,
+        "reason": "Primary proof of identity",
+        "source_type": "official"
+      },
+      {
+        "name": "Land/house ownership proof or rental agreement",
+        "required": true,
+        "reason": "To establish residence at the address",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Property owner",
+        "extra_or_different_documents": [
+          "Current year property tax clearance receipt"
+        ]
+      }
+    ],
+    "fee": "Rs. 150 - 500 (Varies by municipality financial procedure)",
+    "time_needed": "Same day if documents are complete.",
+    "legal_basis": "स्थानीय सरकार सञ्चालन ऐन, २०७४",
+    "sources": [
+      {
+        "url": "https://lekbeshimun.gov.np/citizencharter-wardwise?page=7",
+        "title": "citizencharter_wardwise",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      },
+      {
+        "url": "https://mahabharatmun.gov.np/sites/mahabharatmun.gov.np/files/%E0%A4%B5%E0%A4%A1%E0%A4%BE%20%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95%20%E0%A4%B5%E0%A4%A1%E0%A4%BE%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%20%E0%A5%A8%E0%A5%A6%E0%A5%AC%E0%A5%AC%E0%A5%A4%E0%A5%AD%E0%A5%AD.pdf",
+        "title": "वडा नागरिक वडापत्र २०६६/७७",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "medium",
+    "flags": [
+      "Fee and exact document requirements (e.g., specific tax receipts) vary by municipality."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "death_registration",
+    "title_en": "Death Registration",
+    "title_ne": "मृत्यु दर्ता",
+    "aliases": [
+      "मृत्यु दर्ता",
+      "death registration",
+      "mrityu darta"
+    ],
+    "scope": "national",
+    "applies_to": "Family members or authorized informants of a deceased person.",
+    "municipality": "national",
+    "office": "सम्बन्धित वडा कार्यालय or local registrar where the death occurred or permanent address is located",
+    "mode": "in_person",
+    "online_note": null,
+    "practical_tip": null,
+    "tip_source_type": null,
+    "steps": [
+      {
+        "order": 1,
+        "action": "Submit the personal event registration information form with required documents.",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Verification by the local registrar.",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 3,
+        "action": "Issuance of the death registration certificate.",
+        "where": "Ward Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Deceased's citizenship certificate (if available) or other ID",
+        "required": true,
+        "reason": "To establish identity of the deceased",
+        "source_type": "official"
+      },
+      {
+        "name": "Informant's citizenship certificate",
+        "required": true,
+        "reason": "Informant must be an authorized and identifiable person",
+        "source_type": "official"
+      },
+      {
+        "name": "Health institution death report (if died in a hospital)",
+        "required": true,
+        "reason": "To verify cause and time of death",
+        "source_type": "official"
+      }
+    ],
+    "variants": [],
+    "fee": "Free if registered within 35 days. Late registration incurs a delayed fee (बिलम्ब शुल्क).",
+    "time_needed": "Same day if documents are complete; up to 3 days if field verification is required.",
+    "legal_basis": "जन्म, मृत्यु तथा अन्य व्यक्तिगत घटना (दर्ता गर्ने) ऐन, २०३३ and नियमावली, २०७१",
+    "sources": [
+      {
+        "url": "https://donidcr.gov.np/pages/about-frequently-asked-questions--registration-5/",
+        "title": "प्राय सोधिने प्रश्नहरु : पञ्जीकरण",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      },
+      {
+        "url": "https://lekbeshimun.gov.np/content/%E0%A4%AE%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A5%81-%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE",
+        "title": "मृत्यु दर्ता",
+        "source_kind": "official",
+        "source_page_date": "2023-03-31",
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "high",
+    "flags": [
+      "Late fee amounts vary by municipality and are not uniformly specified in national FAQs."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "marriage_registration",
+    "title_en": "Marriage Registration",
+    "title_ne": "विवाह दर्ता",
+    "aliases": [
+      "विवाह दर्ता",
+      "marriage registration",
+      "bibaha darta"
+    ],
+    "scope": "national",
+    "applies_to": "Couples who have completed a marriage ceremony and need legal registration.",
+    "municipality": "national",
+    "office": "सम्बन्धित वडा कार्यालय or local registrar",
+    "mode": "in_person",
+    "online_note": null,
+    "practical_tip": null,
+    "tip_source_type": null,
+    "steps": [
+      {
+        "order": 1,
+        "action": "Both parties submit the application form with required documents.",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Verification (may include field visit / सर्जमिन if deemed necessary).",
+        "where": "Ward Office / Field",
+        "fee": null
+      },
+      {
+        "order": 3,
+        "action": "Issuance of the marriage registration certificate.",
+        "where": "Ward Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Citizenship certificate of both bride and groom",
+        "required": true,
+        "reason": "Primary proof of identity and nationality",
+        "source_type": "official"
+      },
+      {
+        "name": "Recent passport-size photos (2 copies of each)",
+        "required": true,
+        "reason": "For the certificate and records",
+        "source_type": "official"
+      },
+      {
+        "name": "Application form",
+        "required": true,
+        "reason": "Standard procedural requirement",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Court marriage",
+        "extra_or_different_documents": [
+          "Court decree or order establishing the marriage"
+        ]
+      }
+    ],
+    "fee": "Free or nominal (varies by municipality, sometimes Rs. 100-300 for verification).",
+    "time_needed": "Same day if documents are complete; up to 3 days if field verification (सर्जमिन) is required.",
+    "legal_basis": "मुलुकी देवानी संहिता, २०७४ and विवाह दर्ता नियमावली, २०२८",
+    "sources": [
+      {
+        "url": "https://pokharamun.gov.np/content/%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B9-%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE",
+        "title": "विवाह दर्ता",
+        "source_kind": "official",
+        "source_page_date": "2018-11-23",
+        "date_read": "2026-10-28"
+      },
+      {
+        "url": "https://lekbeshimun.gov.np/content/%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B9-%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE",
+        "title": "विवाह दर्ता",
+        "source_kind": "official",
+        "source_page_date": "2023-03-31",
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "high",
+    "flags": [
+      "Child marriage and polygamy are legally void and cannot be registered."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "migration_registration",
+    "title_en": "Migration Registration",
+    "title_ne": "बसाइँसराइ दर्ता",
+    "aliases": [
+      "बसाइँसराइ दर्ता",
+      "migration registration",
+      "basaaisarai darta"
+    ],
+    "scope": "national",
+    "applies_to": "Individuals or families moving their permanent residence from one ward/municipality to another.",
+    "municipality": "national",
+    "office": "सम्बन्धित वडा कार्यालय (Both leaving and receiving Ward Office)",
+    "mode": "in_person",
+    "online_note": null,
+    "practical_tip": null,
+    "tip_source_type": null,
+    "steps": [
+      {
+        "order": 1,
+        "action": "Obtain migration clearance certificate from the previous ward office.",
+        "where": "Previous Ward Office",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Submit application with documents at the new ward office.",
+        "where": "New Ward Office",
+        "fee": null
+      },
+      {
+        "order": 3,
+        "action": "Verification and issuance of migration registration certificate.",
+        "where": "New Ward Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Application form",
+        "required": true,
+        "reason": "Standard procedural requirement",
+        "source_type": "official"
+      },
+      {
+        "name": "Citizenship certificate copy",
+        "required": true,
+        "reason": "Primary proof of identity",
+        "source_type": "official"
+      },
+      {
+        "name": "Migration registration certificate from previous ward (if moving in)",
+        "required": true,
+        "reason": "To prove legal departure from previous location",
+        "source_type": "official"
+      },
+      {
+        "name": "Recent passport-size photos (4 copies)",
+        "required": true,
+        "reason": "For ward records",
+        "source_type": "official"
+      }
+    ],
+    "variants": [],
+    "fee": "Free or nominal (varies by municipality).",
+    "time_needed": "Same day if documents are complete.",
+    "legal_basis": "जन्म, मृत्यु तथा अन्य व्यक्तिगत घटना (दर्ता गर्ने) ऐन, २०३३ and नियमावली, २०७१",
+    "sources": [
+      {
+        "url": "https://www.tilottamamun.gov.np/sites/tilottamamun.gov.np/files/documents/%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95%20%E0%A4%AC%E0%A4%A1%E0%A4%BE%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0_final.pdf",
+        "title": "नागरिक बडापत्र",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      },
+      {
+        "url": "https://www.mahalaxmimunlalitpur.gov.np/sites/mahalaxmimunlalitpur.gov.np/files/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%A4%E0%A4%83%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B6%E0%A4%A8%20%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AD%20%E0%A4%9A%E0%A5%88%E0%A4%A4%E0%A5%8D%E0%A4%B0.pdf",
+        "title": "स्वतः प्रकाशन २०७७ चैत्र",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "high",
+    "flags": [
+      "Some municipalities may require additional proof of residence at the new location (e.g., rental agreement or land ownership)."
+    ],
+    "reviewed_by_human": false
+  }
+]

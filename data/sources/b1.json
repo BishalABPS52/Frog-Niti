@@ -1,0 +1,492 @@
+[
+  {
+    "id": "birth_registration",
+    "title_en": "Birth Registration Certificate",
+    "title_ne": "जन्म दर्ता प्रमाणपत्र",
+    "aliases": [
+      "जन्म दर्ता",
+      "birth certificate",
+      "janma darta"
+    ],
+    "scope": "national",
+    "applies_to": "Parents or legal guardians of a newborn child.",
+    "municipality": "national",
+    "office": "सम्बन्धित वडा कार्यालय (Local Ward Office) or local registrar",
+    "mode": "in_person",
+    "online_note": null,
+    "practical_tip": "Always call the specific ward office before visiting to confirm if they require additional local documents (like a vaccination card or neighbor verification) and to check their exact late fee (बिलम्ब शुल्क) structure.",
+    "tip_source_type": "official",
+    "steps": [
+      {
+        "order": 1,
+        "action": "Fill the personal event registration information form.",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Submit the form with required documents to the local registrar.",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 3,
+        "action": "Verification and issuance of the birth registration certificate.",
+        "where": "Ward Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Copy of father's or mother's Nepali citizenship certificate",
+        "required": true,
+        "reason": "To establish parentage and nationality",
+        "source_type": "official"
+      },
+      {
+        "name": "Copy of informant's (सूचक) citizenship certificate",
+        "required": true,
+        "reason": "Informant must be an authorized and identifiable person",
+        "source_type": "official"
+      },
+      {
+        "name": "Birth report from health institution/hospital OR vaccination card (if born at home)",
+        "required": true,
+        "reason": "To verify date and place of birth",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Single mother or father's address unknown",
+        "extra_or_different_documents": [
+          "Police report regarding missing father",
+          "Mother's citizenship certificate"
+        ]
+      },
+      {
+        "case": "Born abroad",
+        "extra_or_different_documents": [
+          "Birth certificate attested by Nepali Embassy",
+          "Parents' citizenship certificates"
+        ]
+      }
+    ],
+    "fee": "Free if registered within 35 days. Late registration incurs a delayed fee (बिलम्ब शुल्क) as per local municipal rules.",
+    "time_needed": "Same day if procedure and documents are complete.",
+    "legal_basis": "जन्म, मृत्यु तथा अन्य व्यक्तिगत घटना (दर्ता गर्ने) ऐन, २०३३ and नियमावली, २०७१",
+    "sources": [
+      {
+        "url": "https://donidcr.gov.np/pages/about-frequently-asked-questions--registration-5/",
+        "title": "प्राय सोधिने प्रश्नहरु : पञ्जीकरण",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "high",
+    "flags": [
+      "Late fee amounts vary by municipality and are not uniformly specified in national FAQs."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "citizenship_by_descent",
+    "title_en": "Nepali Citizenship Certificate by Descent",
+    "title_ne": "वंशजको आधारमा नागरिकता प्रमाणपत्र",
+    "aliases": [
+      "वंशजको नागरिकता",
+      "citizenship by descent",
+      "vanshaja ko nagarikata"
+    ],
+    "scope": "national",
+    "applies_to": "Individuals born to Nepali citizen parents before the commencement of the Constitution.",
+    "municipality": "national",
+    "office": "जिल्ला प्रशासन कार्यालय (District Administration Office - DAO)",
+    "mode": "in_person",
+    "online_note": "Ward recommendation can sometimes be initiated online, but final submission and biometric/verification steps are strictly in person.",
+    "practical_tip": "Always consult designated personnel at the DAO or your ward office before visiting to confirm if a field verification (सर्जमिन) is required for your specific case, as this significantly impacts processing time.",
+    "tip_source_type": "official",
+    "steps": [
+      {
+        "order": 1,
+        "action": "Obtain citizenship recommendation from the permanent address Ward Office.",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Fill Schedule-1 (अनुसूची-१) citizenship application form.",
+        "where": "Home/Online",
+        "fee": null
+      },
+      {
+        "order": 3,
+        "action": "Submit application with documents and Rs. 10 revenue stamp at DAO.",
+        "where": "District Administration Office",
+        "fee": "Rs. 10"
+      },
+      {
+        "order": 4,
+        "action": "Verification and issuance of citizenship certificate.",
+        "where": "District Administration Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Schedule-1 (अनुसूची-१) application form with Ward recommendation",
+        "required": true,
+        "reason": "Primary application document",
+        "source_type": "official"
+      },
+      {
+        "name": "Birth registration certificate",
+        "required": true,
+        "reason": "To verify date and place of birth",
+        "source_type": "official"
+      },
+      {
+        "name": "Father's and Mother's Nepali citizenship certificates",
+        "required": true,
+        "reason": "To establish descent",
+        "source_type": "official"
+      },
+      {
+        "name": "Educational certificate",
+        "required": true,
+        "reason": "Identity and age verification",
+        "source_type": "official"
+      },
+      {
+        "name": "Recent passport-size photo",
+        "required": true,
+        "reason": "For the certificate and records",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Married woman",
+        "extra_or_different_documents": [
+          "Marriage registration certificate",
+          "Husband's citizenship certificate"
+        ]
+      },
+      {
+        "case": "Father missing or unknown",
+        "extra_or_different_documents": [
+          "Police report",
+          "Mother's citizenship certificate",
+          "Close relative's citizenship for identification"
+        ]
+      }
+    ],
+    "fee": "Rs. 10 (Revenue stamp / हुलाक टिकट) at DAO. Ward recommendation fees vary (typically Rs. 100-300).",
+    "time_needed": "Same day if all documents are complete and verified; longer if field verification (सर्जमिन) is triggered.",
+    "legal_basis": "नेपाल नागरिकता ऐन, २०६३ and नागरिकता नियमावली, २०६३",
+    "sources": [
+      {
+        "url": "https://daodhanusha.moha.gov.np/assets/53/%E0%A4%B6%E0%A5%81%E0%A4%B0%E0%A5%81_%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A5%80_%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%A4%E0%A4%BE%E0%A4%95%E0%A5%8B_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0_%E0%A4%B0_%E0%A4%AC%E0%A4%A8%E0%A4%BE%E0%A4%89%E0%A4%A8%E0%A5%87_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A5%83%E0%A4%AF%E0%A4%BE.pdf/file",
+        "title": "नेपाली नागरिकताको प्रकार र बनाउने प्रक्रिया",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "high",
+    "flags": [
+      "Some DAOs may request additional local verification (सर्जमिन) if documents are disputed, which extends the time needed."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "national_id",
+    "title_en": "National ID Card Registration",
+    "title_ne": "राष्ट्रिय परिचयपत्र दर्ता",
+    "aliases": [
+      "राष्ट्रिय परिचयपत्र",
+      "national ID",
+      "rashtriya parichayapatra",
+      "nid"
+    ],
+    "scope": "national",
+    "applies_to": "Nepali citizens, including minors (with guardian presence).",
+    "municipality": "national",
+    "office": "राष्ट्रिय परिचयपत्र तथा पञ्जीकरण विभाग (Department of National ID and Civil Registration) or designated enrollment centers",
+    "mode": "both",
+    "online_note": "Pre-enrollment is done at citizenportal.donidcr.gov.np. Crucial: Fill *every* field, including grandparents' address (even if deceased), to avoid system validation errors. If the appointment calendar does not allow date selection, choose 'Others' or leave blank. If a specific date is assigned, you must visit *only* on that date.",
+    "practical_tip": "Always call or consult designated personnel at the enrollment center before visiting to confirm document requirements and appointment validity, as walk-ins are often rejected without a valid appointment.",
+    "tip_source_type": "official",
+    "steps": [
+      {
+        "order": 1,
+        "action": "Pre-register online, filling all mandatory fields completely.",
+        "where": "Online (citizenportal.donidcr.gov.np)",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Provide biometric data (photograph, fingerprints, iris scan) on the scheduled date.",
+        "where": "Designated Enrollment Center",
+        "fee": null
+      },
+      {
+        "order": 3,
+        "action": "Receive acknowledgment slip with a tracking number.",
+        "where": "Enrollment Center",
+        "fee": null
+      },
+      {
+        "order": 4,
+        "action": "Collect the National ID card when notified via SMS.",
+        "where": "Designated Collection Center",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Original Nepali citizenship certificate",
+        "required": true,
+        "reason": "Primary proof of nationality and identity",
+        "source_type": "official"
+      },
+      {
+        "name": "Printed online pre-enrollment form",
+        "required": true,
+        "reason": "Generated from the citizen portal",
+        "source_type": "official"
+      },
+      {
+        "name": "Birth registration certificate",
+        "required": false,
+        "reason": "May be required for minors or if citizenship lacks birth details",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Minors (below 16)",
+        "extra_or_different_documents": [
+          "Guardian's original citizenship certificate",
+          "Guardian's physical presence during biometric capture"
+        ]
+      }
+    ],
+    "fee": "Free for first-time registration.",
+    "time_needed": "Biometric capture takes 15-30 minutes. Card delivery time varies (weeks to months) and is not officially guaranteed.",
+    "legal_basis": "राष्ट्रिय परिचयपत्र तथा पञ्जीकरण ऐन, २०७६ and नियमावली, २०७७",
+    "sources": [
+      {
+        "url": "https://donidcr.gov.np/pages/about-frequently-asked-questions--registration-5/",
+        "title": "प्राय सोधिने प्रश्नहरु : पञ्जीकरण",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      },
+      {
+        "url": "https://citizenportal.donidcr.gov.np/",
+        "title": "Citizen Portal Nepal",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "high",
+    "flags": [
+      "Online form validation can be strict regarding ancestral address fields; leaving them blank may prevent submission.",
+      "Card delivery timelines depend on printing batch schedules and are not guaranteed in days/weeks."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "citizenship_recommendation",
+    "title_en": "Ward Recommendation for Citizenship",
+    "title_ne": "नागरिकता सिफारिस",
+    "aliases": [
+      "नागरिकता सिफारिस",
+      "citizenship recommendation",
+      "nagarikata sifarish"
+    ],
+    "scope": "municipality_specific",
+    "applies_to": "Individuals applying for Nepali citizenship who need local verification.",
+    "municipality": "Kathmandu Metropolitan City (Example)",
+    "office": "सम्बन्धित वडा कार्यालय (Ward Office of permanent address)",
+    "mode": "in_person",
+    "online_note": null,
+    "practical_tip": "Always call the ward office before visiting to confirm if they require a field verification (सर्जमिन), the exact fee for your municipality, and if any additional local documents (like a landlord's letter) are needed.",
+    "tip_source_type": "official",
+    "steps": [
+      {
+        "order": 1,
+        "action": "Submit the filled citizenship recommendation application form with required documents.",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Ward office verification (may include field visit / सर्जमिन if deemed necessary).",
+        "where": "Ward Office / Field",
+        "fee": null
+      },
+      {
+        "order": 3,
+        "action": "Issuance of the citizenship recommendation letter.",
+        "where": "Ward Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Copy of father's or mother's Nepali citizenship certificate",
+        "required": true,
+        "reason": "To establish descent for the recommendation",
+        "source_type": "official"
+      },
+      {
+        "name": "Applicant's birth registration certificate",
+        "required": true,
+        "reason": "To verify date and place of birth",
+        "source_type": "official"
+      },
+      {
+        "name": "Filled application form (in black ink)",
+        "required": true,
+        "reason": "Standard procedural requirement",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Naturalized (अंगीकृत) citizenship recommendation",
+        "extra_or_different_documents": [
+          "Marriage registration certificate (for married women)",
+          "Proof of foreign citizenship renunciation (if applicable)"
+        ]
+      }
+    ],
+    "fee": "Rs. 100 - 300 (Varies by municipality financial procedure).",
+    "time_needed": "Same day if documents are complete; up to 3 days if field verification (सर्जमिन) is required.",
+    "legal_basis": "स्थानीय सरकार सञ्चालन ऐन, २०७४",
+    "sources": [
+      {
+        "url": "https://mahakulungmun.gov.np/content/citizenship-recommendation",
+        "title": "नागरिकता प्रमाण पत्रको सिफारिस",
+        "source_kind": "official",
+        "source_page_date": "2018-12-14",
+        "date_read": "2026-10-28"
+      },
+      {
+        "url": "https://www.tilamun.gov.np/content/%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A5%80-%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%A4%E0%A4%BE-%E0%A4%B8%E0%A4%BF%E0%A4%AB%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%B8-%E0%A4%B5%E0%A4%82%E0%A4%B6%E0%A4%9C%E0%A4%95%E0%A5%8B-%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%AE%E0%A4%BE",
+        "title": "नेपाली नागरिकता सिफारिस (वंशजको आधारमा)",
+        "source_kind": "official",
+        "source_page_date": "2018-09-27",
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "medium",
+    "flags": [
+      "Fee and exact processing time vary significantly between different municipalities and wards. The fee range is based on sampled citizen charters."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "passport_recommendation",
+    "title_en": "Ward Recommendation for Passport",
+    "title_ne": "राहदानी सिफारिस",
+    "aliases": [
+      "राहदानी सिफारिस",
+      "passport recommendation",
+      "rahadani sifarish"
+    ],
+    "scope": "municipality_specific",
+    "applies_to": "Nepali citizens applying for a new passport or renewal requiring local address verification.",
+    "municipality": "Kathmandu Metropolitan City (Example)",
+    "office": "सम्बन्धित वडा कार्यालय (Ward Office of permanent address)",
+    "mode": "in_person",
+    "online_note": "Applicants are often advised to fill the online passport application form at the Department of Passport website before visiting the ward for the recommendation.",
+    "practical_tip": "Always consult designated personnel at the ward office before visiting to confirm if a recommendation is still required for your specific case (e.g., some renewals may bypass this). Note: The Rs. 5,000 (regular) or Rs. 10,000+ (urgent) fee is charged by the Department of Passport/DAO for issuance, NOT by the ward for the recommendation (which is nominal).",
+    "tip_source_type": "official",
+    "steps": [
+      {
+        "order": 1,
+        "action": "Fill the passport recommendation form (and online passport application if applicable).",
+        "where": "Home / Ward Office",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Submit the form with required documents to the Ward Office.",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 3,
+        "action": "Ward verification and issuance of the recommendation letter.",
+        "where": "Ward Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Original Nepali citizenship certificate and photocopy",
+        "required": true,
+        "reason": "Primary proof of nationality",
+        "source_type": "official"
+      },
+      {
+        "name": "National ID card (if available)",
+        "required": false,
+        "reason": "Supporting identity document, increasingly requested",
+        "source_type": "official"
+      },
+      {
+        "name": "Filled passport recommendation form",
+        "required": true,
+        "reason": "Standard procedural requirement",
+        "source_type": "official"
+      },
+      {
+        "name": "Recent passport-size photos (3 copies)",
+        "required": true,
+        "reason": "For ward records and recommendation letter",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Urgent (द्रुत) passport processing",
+        "extra_or_different_documents": [
+          "Rs. 10 revenue stamp for urgent request at DAO",
+          "Note: Urgent passport issuance fee at DAO/Passport Dept is Rs. 10,000 (or up to Rs. 15,000 in some cases), while regular is Rs. 5,000. The ward recommendation fee remains nominal."
+        ]
+      }
+    ],
+    "fee": "Rs. 100 - 200 (Ward recommendation fee). Passport issuance fee is Rs. 5,000 (regular) or Rs. 10,000+ (urgent) at the Department of Passport/DAO.",
+    "time_needed": "Same day at ward office if documents are complete.",
+    "legal_basis": "स्थानीय सरकार सञ्चालन ऐन, २०७४",
+    "sources": [
+      {
+        "url": "https://aaochainpur.moha.gov.np/assets/93/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%A4_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B6%E0%A4%A8_Chainpur_%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AF_%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%B5%E0%A4%A3_%E0%A4%85%E0%A4%B8%E0%A5%8B%E0%A4%9C.pdf/file",
+        "title": "स्वत: प्रकाशन - ईलाका प्रशासन कार्यालय चैनपुर",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      },
+      {
+        "url": "https://daokaski.moha.gov.np/assets/8/%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE_%E0%A4%B5%E0%A4%A1%E0%A4%BE%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0_%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A6.pdf/file",
+        "title": "सेवा पुस्तिका - जिल्ला प्रशासन कार्यालय, कास्की",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "high",
+    "flags": [
+      "Some DAOs now accept direct online applications without ward recommendation for certain renewals, but first-time applicants generally still require it. Verify with the specific DAO.",
+      "The high cost (Rs. 5,000-10,000+) is strictly the passport issuance fee at the central level, not the local ward recommendation fee."
+    ],
+    "reviewed_by_human": false
+  }
+]
+

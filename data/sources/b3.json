@@ -1,0 +1,497 @@
+[
+  {
+    "id": "citizenship_duplicate_correction",
+    "title_en": "Duplicate or Corrected Citizenship Certificate",
+    "title_ne": "नागरिकता प्रतिलिपि वा सच्चाई",
+    "aliases": [
+      "नागरिकता प्रतिलिपि",
+      "citizenship copy",
+      "nagarikata pratilipi"
+    ],
+    "scope": "national",
+    "applies_to": "Individuals who have lost, damaged, or need to correct details on their existing citizenship certificate.",
+    "municipality": "national",
+    "office": "जिल्ला प्रशासन कार्यालय (District Administration Office - DAO)",
+    "mode": "in_person",
+    "online_note": null,
+    "practical_tip": "If the original certificate is lost, a police report (हराएको रिपोर्ट) is strictly required before the DAO will process a duplicate.",
+    "tip_source_type": "official",
+    "steps": [
+      {
+        "order": 1,
+        "action": "File a police report (if the original is lost).",
+        "where": "Local Police Station",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Submit the application form with required documents and fee.",
+        "where": "District Administration Office",
+        "fee": "Rs. 200"
+      },
+      {
+        "order": 3,
+        "action": "Verification and issuance of the duplicate/corrected certificate.",
+        "where": "District Administration Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Application form for duplicate/correction",
+        "required": true,
+        "reason": "Standard procedural requirement",
+        "source_type": "official"
+      },
+      {
+        "name": "Original citizenship certificate (if damaged) OR Police report (if lost)",
+        "required": true,
+        "reason": "To establish the need for a duplicate",
+        "source_type": "official"
+      },
+      {
+        "name": "Copy of father's or mother's citizenship certificate",
+        "required": true,
+        "reason": "To verify descent and identity",
+        "source_type": "official"
+      },
+      {
+        "name": "Recent passport-size photos",
+        "required": true,
+        "reason": "For the new certificate",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Name or detail correction",
+        "extra_or_different_documents": [
+          "Supporting documents proving the correct detail (e.g., birth certificate, academic transcripts)"
+        ]
+      }
+    ],
+    "fee": "Rs. 200 (approximate, varies slightly by DAO)",
+    "time_needed": "Same day to 3 days, depending on verification complexity.",
+    "legal_basis": "नेपाल नागरिकता ऐन, २०६३ and नागरिकता नियमावली, २०६३",
+    "sources": [
+      {
+        "url": "https://www.gulariyamun.gov.np/ne/content/%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A5%80-%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%A4%E0%A4%BE%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A4%BF%E0%A4%AB%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%B8%E0%A4%95%E0%A4%BE-%E0%A4%B2%E0%A4%BE%E0%A4%97%E0%A4%BF-%E0%A4%86%E0%A4%B5%E0%A4%B6%E0%A5%8D%E0%A4%AF%E0%A4%95-%E0%A4%95%E0%A4%BE%E0%A4%97%E0%A4%9C%E0%A4%BE%E0%A4%A4-%E0%A4%B0-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE",
+        "title": "नेपाली नागरिकताको सिफारिसका लागि आवश्यक कागजात र प्रक्रिया",
+        "source_kind": "official",
+        "source_page_date": "2018-10-31",
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "high",
+    "flags": [
+      "Exact fee may vary slightly between different District Administration Offices."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "passport_issuance",
+    "title_en": "Passport Application (New or Renewal)",
+    "title_ne": "राहदानी (नयाँ वा नवीकरण)",
+    "aliases": [
+      "राहदानी",
+      "passport",
+      "rahadani"
+    ],
+    "scope": "national",
+    "applies_to": "Nepali citizens traveling abroad who need a new passport or renewal of an existing one.",
+    "municipality": "national",
+    "office": "राहदानी विभाग (Department of Passport) or designated DAO enrollment centers",
+    "mode": "both",
+    "online_note": "Online pre-enrollment and form filling is mandatory at the Department of Passport website before visiting the center.",
+    "practical_tip": "Ensure all details in the online form perfectly match your citizenship certificate. Errors require paying the fee again to re-apply.",
+    "tip_source_type": "official",
+    "steps": [
+      {
+        "order": 1,
+        "action": "Complete the online passport application form and print it.",
+        "where": "Online",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Obtain ward recommendation (if required for first-time applicants).",
+        "where": "Ward Office",
+        "fee": null
+      },
+      {
+        "order": 3,
+        "action": "Submit documents, provide biometrics, and pay the fee at the Passport Office/DAO.",
+        "where": "Department of Passport / DAO",
+        "fee": "Rs. 5,000 (Regular) or Rs. 10,000+ (Urgent)"
+      },
+      {
+        "order": 4,
+        "action": "Collect the passport on the designated date.",
+        "where": "Department of Passport / DAO",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Original Nepali citizenship certificate and photocopy",
+        "required": true,
+        "reason": "Primary proof of nationality",
+        "source_type": "official"
+      },
+      {
+        "name": "National ID card",
+        "required": true,
+        "reason": "Mandatory for applicants aged 16 and above",
+        "source_type": "official"
+      },
+      {
+        "name": "Old passport (for renewal cases)",
+        "required": true,
+        "reason": "To verify previous travel history and identity",
+        "source_type": "official"
+      },
+      {
+        "name": "Printed online application form",
+        "required": true,
+        "reason": "Generated from the official portal",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Urgent (द्रुत) processing",
+        "extra_or_different_documents": [
+          "Additional fee payment receipt (Rs. 10,000 or up to Rs. 15,000 for lost/damaged replacement)"
+        ]
+      }
+    ],
+    "fee": "Rs. 5,000 (Regular), Rs. 10,000 (Urgent), up to Rs. 15,000 for lost/damaged replacement",
+    "time_needed": "Regular: Several weeks. Urgent: Significantly faster (often within days).",
+    "legal_basis": "राहदानी ऐन, २०१९ and राहदानी नियमावली, २०२०",
+    "sources": [
+      {
+        "url": "https://nepalpassport.gov.np/process/-41",
+        "title": "राहदानीका लागि लाग्ने दस्तुर",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      },
+      {
+        "url": "https://daokaski.moha.gov.np/assets/8/%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE_%E0%A4%B5%E0%A4%A1%E0%A4%BE%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0_%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A6.pdf/file",
+        "title": "सेवा पुस्तिका - जिल्ला प्रशासन कार्यालय, कास्की",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "high",
+    "flags": [
+      "Some DAOs may waive the ward recommendation requirement for renewals, but first-time applicants generally still need it."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "land_ownership_certificate",
+    "title_en": "Land Ownership Certificate (or Copy)",
+    "title_ne": "जग्गाधनी प्रमाणपुर्जा (नक्कल वा नयाँ)",
+    "aliases": [
+      "जग्गाधनी प्रमाणपुर्जा",
+      "land ownership certificate",
+      "jaggadhani pramanpurja",
+      "lalpurja"
+    ],
+    "scope": "national",
+    "applies_to": "Landowners needing an official copy of their land ownership document or a newly issued certificate.",
+    "municipality": "national",
+    "office": "मालपोत कार्यालय (Land Revenue Office)",
+    "mode": "in_person",
+    "online_note": "Some offices allow online requests for copies via the 'Mero Kitta' portal, but physical verification is often still required.",
+    "practical_tip": "Always bring the current fiscal year's property tax clearance receipt (मालपोत रसिद), as offices will reject applications without it.",
+    "tip_source_type": "official",
+    "steps": [
+      {
+        "order": 1,
+        "action": "Obtain ward recommendation and current tax clearance receipt.",
+        "where": "Ward Office / Land Revenue Office",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Submit application with documents at the Land Revenue Office.",
+        "where": "Land Revenue Office",
+        "fee": "Varies (nominal for copy, percentage-based for new)"
+      },
+      {
+        "order": 3,
+        "action": "Verification and issuance of the certificate/copy.",
+        "where": "Land Revenue Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Application form",
+        "required": true,
+        "reason": "Standard procedural requirement",
+        "source_type": "official"
+      },
+      {
+        "name": "Applicant's citizenship certificate copy",
+        "required": true,
+        "reason": "Primary proof of identity",
+        "source_type": "official"
+      },
+      {
+        "name": "Current fiscal year property tax clearance receipt",
+        "required": true,
+        "reason": "Proof of up-to-date tax payment",
+        "source_type": "official"
+      },
+      {
+        "name": "Ward recommendation letter",
+        "required": true,
+        "reason": "Local verification of ownership",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Requesting a copy (नक्कल)",
+        "extra_or_different_documents": [
+          "Details of the original certificate (Kitta number, location)"
+        ]
+      }
+    ],
+    "fee": "Nominal fee for a copy (e.g., Rs. 50-100). New issuance fees vary based on land value and transaction type.",
+    "time_needed": "Same day for a simple copy request if records are digitized; longer for new issuances.",
+    "legal_basis": "नापी ऐन and मालपोत सम्बन्धी नियमावली",
+    "sources": [
+      {
+        "url": "https://vyasmun.gov.np/sites/vyasmun.gov.np/files/documents/%E0%A4%B5%E0%A4%A1%E0%A4%BE%20%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95%20%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%20%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AA%E0%A5%A4%E0%A5%A6%E0%A5%AD%E0%A5%AB.pdf",
+        "title": "वडा नागरिक पत्र २०७४/०७५",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      },
+      {
+        "url": "https://merokitta.dos.gov.np/",
+        "title": "मेरो कित्ता (Mero Kitta)",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "high",
+    "flags": [
+      "Fees and exact document requirements can vary slightly between different Land Revenue Offices."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "land_transfer_registration",
+    "title_en": "Land Transfer and Registration (Naamsari)",
+    "title_ne": "जग्गा रजिस्ट्रेसन तथा नामसारी",
+    "aliases": [
+      "नामसारी",
+      "land transfer",
+      "registration",
+      "naamsari"
+    ],
+    "scope": "national",
+    "applies_to": "Individuals buying, inheriting, or receiving land as a gift, requiring official transfer of ownership.",
+    "municipality": "national",
+    "office": "मालपोत कार्यालय (Land Revenue Office)",
+    "mode": "in_person",
+    "online_note": null,
+    "practical_tip": "Both the buyer and seller (or their legally authorized representatives with a registered power of attorney) must be physically present for biometric verification.",
+    "tip_source_type": "official",
+    "steps": [
+      {
+        "order": 1,
+        "action": "Obtain ward recommendation and tax clearance for the property.",
+        "where": "Ward Office / Land Revenue Office",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Draft and register the sale deed/agreement at the Land Revenue Office.",
+        "where": "Land Revenue Office",
+        "fee": "Registration fee (percentage of transaction value)"
+      },
+      {
+        "order": 3,
+        "action": "Biometric verification of both parties and issuance of the new ownership certificate.",
+        "where": "Land Revenue Office",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Application form for registration/transfer",
+        "required": true,
+        "reason": "Standard procedural requirement",
+        "source_type": "official"
+      },
+      {
+        "name": "Citizenship certificates of both buyer and seller",
+        "required": true,
+        "reason": "Identity verification for both parties",
+        "source_type": "official"
+      },
+      {
+        "name": "Original land ownership certificate of the seller",
+        "required": true,
+        "reason": "Proof of current ownership",
+        "source_type": "official"
+      },
+      {
+        "name": "Current fiscal year property tax clearance receipt",
+        "required": true,
+        "reason": "Proof of up-to-date tax payment",
+        "source_type": "official"
+      },
+      {
+        "name": "Ward recommendation letter",
+        "required": true,
+        "reason": "Local verification of the transaction",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Inheritance or Gift",
+        "extra_or_different_documents": [
+          "Death certificate of previous owner (for inheritance)",
+          "Gift deed registration documents"
+        ]
+      }
+    ],
+    "fee": "Registration fee (typically around 1% of the transaction value or government-assessed value) + nominal administrative fees.",
+    "time_needed": "Same day to a few days if all documents and parties are present.",
+    "legal_basis": "नापी ऐन and मालपोत सम्बन्धी नियमावली",
+    "sources": [
+      {
+        "url": "https://bardaghatmun.gov.np/?bs_year=2083&bs_month=6",
+        "title": "बर्दघाट नगरपालिका | Bardaghat Nagarpalika",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "high",
+    "flags": [
+      "Exact registration fee percentages are dictated by the annual Financial Act (आर्थिक ऐन) and may vary slightly by province."
+    ],
+    "reviewed_by_human": false
+  },
+  {
+    "id": "building_permit",
+    "title_en": "Building Permit or Map Approval",
+    "title_ne": "नक्सा पास",
+    "aliases": [
+      "नक्सा पास",
+      "building permit",
+      "map approval",
+      "naksha pass"
+    ],
+    "scope": "municipality_specific",
+    "applies_to": "Individuals or entities planning to construct a new building or significantly renovate an existing one.",
+    "municipality": "Kathmandu Metropolitan City (Example)",
+    "office": "सम्बन्धित नगरपालिका वा गाउँपालिका (Municipality Engineering Section)",
+    "mode": "in_person",
+    "online_note": "Some municipalities offer an electronic building map approval system (विद्युतीय भवन नक्सा पास प्रणाली) for initial submission.",
+    "practical_tip": "Ensure your building design complies with the local municipality's building bylaws (e.g., setback rules, height limits) before submitting, as revisions cause significant delays.",
+    "tip_source_type": "official",
+    "steps": [
+      {
+        "order": 1,
+        "action": "Prepare the building design/map with a registered engineer/architect.",
+        "where": "Private Engineer/Architect",
+        "fee": null
+      },
+      {
+        "order": 2,
+        "action": "Submit the application with the map, land documents, and tax clearance.",
+        "where": "Municipality Engineering Section",
+        "fee": "Varies by building size and estimated cost"
+      },
+      {
+        "order": 3,
+        "action": "Municipal review, possible site inspection, and approval.",
+        "where": "Municipality",
+        "fee": null
+      },
+      {
+        "order": 4,
+        "action": "Issuance of the building permit (नक्सा पास प्रमाणपत्र).",
+        "where": "Municipality",
+        "fee": null
+      }
+    ],
+    "documents": [
+      {
+        "name": "Application form for building permit",
+        "required": true,
+        "reason": "Standard procedural requirement",
+        "source_type": "official"
+      },
+      {
+        "name": "Land ownership certificate (जग्गाधनी प्रमाणपुर्जा) copy",
+        "required": true,
+        "reason": "Proof of land ownership",
+        "source_type": "official"
+      },
+      {
+        "name": "Approved building map/design (नक्सा) signed by a registered engineer",
+        "required": true,
+        "reason": "To verify compliance with building codes",
+        "source_type": "official"
+      },
+      {
+        "name": "Applicant's citizenship certificate copy",
+        "required": true,
+        "reason": "Primary proof of identity",
+        "source_type": "official"
+      },
+      {
+        "name": "Current fiscal year property tax clearance receipt",
+        "required": true,
+        "reason": "Proof of up-to-date tax payment",
+        "source_type": "official"
+      }
+    ],
+    "variants": [
+      {
+        "case": "Commercial building",
+        "extra_or_different_documents": [
+          "Business registration documents",
+          "Environmental impact assessment (if applicable)"
+        ]
+      }
+    ],
+    "fee": "Varies significantly by municipality, often calculated as a percentage of the estimated construction cost or per square foot/meter.",
+    "time_needed": "7 to 15 days, depending on the complexity of the design and municipal workload.",
+    "legal_basis": "स्थानीय सरकार सञ्चालन ऐन, २०७४ and local municipal building bylaws",
+    "sources": [
+      {
+        "url": "https://www.jugalmun.gov.np/sites/jugalmun.gov.np/files/%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%BE%E0%A4%B9%20%E0%A4%AE%E0%A4%BE%E0%A4%AA%E0%A4%A6%E0%A4%A3%E0%A5%8D%E0%A4%A1.pdf",
+        "title": "आवश्यक कागजात तथा जनताले पुऱ्याउनु पर्ने प्रक्रिया",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      },
+      {
+        "url": "https://dasharathchandmun.gov.np/ne/node/103",
+        "title": "हेर्नको लागि यहाँ क्लिक गर्नुहोस",
+        "source_kind": "official",
+        "source_page_date": null,
+        "date_read": "2026-10-28"
+      }
+    ],
+    "confidence": "medium",
+    "flags": [
+      "Fees, processing times, and specific document requirements (e.g., soil test reports for large buildings) vary heavily between different municipalities."
+    ],
+    "reviewed_by_human": false
+  }
+]
